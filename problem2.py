@@ -24,8 +24,8 @@ Enter another number: 25
 4 is not a factor of 25
 """
 
-a=input("Enter a number")
-b=input("Enter another number")
+a=input("Enter an integer")
+b=input("Enter another integer")
 
 if float(a)%float(b)==0 or float(b)%float(a)==0:
     if float(a)>float(b):
