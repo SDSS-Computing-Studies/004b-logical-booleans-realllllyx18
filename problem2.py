@@ -24,8 +24,8 @@ Enter another number: 25
 4 is not a factor of 25
 """
 
-a=input("Enter an integer")
-b=input("Enter another integer")
+a=input("Enter a number")
+b=input("Enter another number")
 
 if float(a)%float(b)==0 or float(b)%float(a)==0:
     if float(a)>float(b):
@@ -34,6 +34,6 @@ if float(a)%float(b)==0 or float(b)%float(a)==0:
         print(a+" is a factor of "+b)
 else:
     if float(a)>float(b):
-        print(b+" is not a factor of "+a)
+        print(b.strip()+" is not a factor of "+a)
     else:
-        print(a+" is not a factor of "+b)
+        print(a.strip()+" is not a factor of "+b)
